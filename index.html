@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mantenimiento API</title>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <h1>Mantenimiento de Items</h1>
+
+    <h2>Agregar Nuevo Item</h2>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" required>
+    <br>
+    <label for="descripcion">Descripción:</label>
+    <input type="text" id="descripcion" required>
+    <br>
+    <button onclick="agregarItem()">Agregar</button>
+
+    <h2>Lista de Items</h2>
+    <ul id="lista"></ul>
+</body>
+</html>
